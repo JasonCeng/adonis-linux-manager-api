@@ -1,6 +1,6 @@
 # adonis-linux-manager-api
 
-本项目是Linux服务器管理面板的后端工程，由于项目采用前后端分离模式，所以前后端分开存储在两个不同仓库中，前端工程请移步到仓库（<a href='https://github.com/JasonCeng/vue-linux-manager-fronted' target='_blank'>vue-linux-manager-fronted</a>）查看。
+本项目是一个用Node.js的RestfulAPI框架adonis.js构建的Linux服务器管理面板后端工程，由于项目采用前后端分离模式，所以前后端分开存储在两个不同仓库中，前端工程请移步到仓库（<a href='https://github.com/JasonCeng/vue-linux-manager-fronted' target='_blank'>vue-linux-manager-fronted</a>）查看。
 
 ## 一、	环境准备
 
@@ -26,7 +26,7 @@
 
 4.部署前端资源
 
-将dist文件夹放到nginx的html目录下，并将文件夹名称修改成对应项目名(即```四、```中的***前端项目名***)，方便后期维护与管理
+将dist文件夹放到nginx的html目录下，并将文件夹名称修改成对应项目名(即```四、访问项目```中的***前端项目名***)，方便后期维护与管理
 
 ## 三、后端部署说明
 
